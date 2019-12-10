@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #333;
+}
+
+header {
+  background: skyblue;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.container > #main {
+  background: orange;
+  height: 300px;
+}
+
+.container > #side {
+  background: pink;
+  width: 240px;
+  height: 300px;
+}
+
+footer {
+  background: gray;
+  padding: 0;
+}
