@@ -18,6 +18,7 @@ header {
 .container > #main {
   background: orange;
   height: 300px;
+  flex:1;
 }
 
 .container > #side {
